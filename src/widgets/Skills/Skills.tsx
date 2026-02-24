@@ -15,7 +15,6 @@ const Skills = () => {
     <section className="flex flex-col items-center justify-center p-16 bg-white">
       <h2 className="text-2xl font-bold mb-10">기술 스택 및 도구</h2>
 
-      {/* 카테고리 내비게이션 */}
       <div className="flex gap-3 mb-12 p-1.5 bg-gray-50 rounded-full border border-gray-100">
         {CATEGORIES.map((cat) => (
           <button
