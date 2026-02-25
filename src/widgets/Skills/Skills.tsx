@@ -12,7 +12,7 @@ const Skills = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   return (
-    <section className="flex flex-col items-center justify-center p-16 bg-white">
+    <section className="flex flex-col items-center justify-center py-16 px-6 bg-white">
       <h2 className="text-2xl font-bold mb-10">기술 스택 및 도구</h2>
 
       <div className="flex gap-3 mb-12 p-1.5 bg-gray-50 rounded-full border border-gray-100">

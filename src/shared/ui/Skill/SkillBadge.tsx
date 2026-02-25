@@ -14,14 +14,10 @@ const SkillBadge = ({ size = "md", skill, isActive }: SkillBadgeProps) => {
           ? "opacity-100 scale-100 grayscale-0"
           : "opacity-20 scale-90 grayscale"
       }
-      ${
-        size === "sm"
-          ? "w-10 h-10 md:w-12 md:h-12"
-          : "w-14 h-14 md:w-16 md:h-16"
-      }
+      ${size === "sm" ? "w-8 h-8" : "w-12 h-12 md:w-16 md:h-16"}
     `}
     >
-      <div className="w-14 h-14 md:w-16 md:h-16 flex items-center justify-center">
+      <div className="w-full h-full">
         <img
           src={`https://skillicons.dev/icons?i=${skill}`}
           alt={skill}
