@@ -1,6 +1,8 @@
 import Skills from "../widgets/Skills/Skills";
 import Hero from "../widgets/Hero/Hero";
 import Hero6 from "../widgets/Hero/Hero6";
+import Career from "../widgets/Career/Career";
+import Career2 from "../widgets/Career/Career2";
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Hero />;
       <Hero6 />;
       <Skills />;
+      <Career />
+      <Career2 />
     </>
   );
 }
