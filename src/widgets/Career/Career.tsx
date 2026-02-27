@@ -4,11 +4,11 @@ import Title from "@/shared/ui/Title/Title";
 
 const Career = () => {
   return (
-    <section className="section">
+    <section id="career" className="section">
       {/* 타이틀 */}
       <Title
         title="업무 경험"
-        description="실무 · 운영 · 퍼블리싱 · 프론트엔드 개발 경험"
+        description="웹표준 · 웹 접근성 · UI/UX 개선 · 프론트엔드 개발 경험"
       />
 
       {/* 리스트 */}

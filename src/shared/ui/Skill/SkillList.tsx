@@ -16,6 +16,7 @@ export const SKILL_DATA = [
   { id: "vite", category: "tool" },
   { id: "supabase", category: "tool" },
   { id: "firebase", category: "tool" },
+  { id: "n8n", category: "tool" },
   { id: "figma", category: "design" },
 ];
 

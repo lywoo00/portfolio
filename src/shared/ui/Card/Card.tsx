@@ -3,29 +3,24 @@ import type { Project } from "../../../shared/types/project";
 import { useState } from "react";
 import { Modal } from "@/shared/ui/Modal/Modal";
 
-// Props 전용 인터페이스 정의
 interface CardProps {
   project: Project;
 }
 
 const Card = ({ project }: CardProps) => {
-  const formatSkillName = (name: string) =>
-    name.toLowerCase().replace(/[\s. ]/g, "");
-
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <>
-      {/* style1 */}
       <button
         onClick={() => setIsModalOpen(true)}
-        className="group flex flex-col p-8 bg-white rounded-2xl border border-slate-100 shadow-lg/10 transition-all duration-300 hover:shadow-xl/10 hover:-translate-y-1"
+        className="group flex flex-col p-5 md:p-8 bg-white rounded-2xl border border-slate-100 shadow-lg/10 transition-all duration-300 hover:shadow-xl/10 hover:-translate-y-1"
       >
         <div className="flex justify-between items-start mb-6">
           <div className="flex flex-col items-start">
             <span className="text-xs font-bold text-blue-600 uppercase tracking-widest mb-1">
               {project.info.period}
             </span>
-            <h3 className="text-2xl font-black text-slate-900">
+            <h3 className="text-xl md:text-2xl font-black text-slate-900 text-left">
               {project.title}
             </h3>
           </div>
@@ -38,12 +33,7 @@ const Card = ({ project }: CardProps) => {
         <div className="pt-5 mt-5 border-t border-slate-200">
           <div className="flex flex-wrap gap-2">
             {project.info.skills.map((skill: string) => (
-              <SkillBadge
-                key={skill}
-                skill={formatSkillName(skill)}
-                isActive={true}
-                size="sm"
-              />
+              <SkillBadge key={skill} skill={skill} isActive={true} size="sm" />
             ))}
           </div>
         </div>

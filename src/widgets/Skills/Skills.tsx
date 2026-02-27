@@ -14,11 +14,11 @@ const Skills = () => {
   const [activeCategory, setActiveCategory] = useState("all");
 
   return (
-    <section className="section flex flex-col items-center justify-center py-16 px-6 bg-white">
-      <Title
-        title="기술 스택"
-        description="실무 · 운영 · 퍼블리싱 · 프론트엔드 개발 경험"
-      />
+    <section
+      id="skills"
+      className="section flex flex-col items-center justify-center py-16 px-6 bg-white"
+    >
+      <Title title="기술 스택" description="아래 기술을 사용할 수 있습니다." />
 
       <div className="flex gap-3 mb-12 p-1.5 bg-white rounded-full border border-gray-100 shadow-sm">
         {CATEGORIES.map((cat) => (

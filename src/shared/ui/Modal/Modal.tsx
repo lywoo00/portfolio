@@ -91,12 +91,7 @@ Modal.Header = ({ title, subTitle, info, links }: Project) => {
 
         <div className="flex flex-wrap gap-2">
           {info.skills.map((skill) => (
-            <SkillBadge
-              key={skill}
-              skill={skill.toLowerCase().replace(/[\s. ]/g, "")}
-              isActive={true}
-              size="sm"
-            />
+            <SkillBadge key={skill} skill={skill} isActive={true} size="sm" />
           ))}
         </div>
       </div>

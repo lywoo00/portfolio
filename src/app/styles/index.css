@@ -50,7 +50,7 @@
 .section {
   @apply max-w-5xl mx-auto py-20 md:py-25 px-5 md:py-10 md:rounded-2xl;
 }
-.section:nth-child(even) {
+.section:nth-child(even of .section) {
   @apply bg-gray-50; }
 
 .sction-title {

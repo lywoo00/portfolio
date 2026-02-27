@@ -5,7 +5,15 @@ const data: Project[] = [
     subTitle: `코드 영향도 분석 및 문서 작성 자동화 서비스 개발`,
     info: {
       period: "2026.01 ~ 2026.02",
-      skills: ["react", "nextjs", "typescript", "tailwind", "supabase"],
+      skills: [
+        "react",
+        "next.js",
+        "typescript",
+        "tailwind",
+        "supabase",
+        "n8n",
+        "github",
+      ],
     },
     description: [
       {
@@ -54,6 +62,63 @@ const data: Project[] = [
       {
         label: "개발자 공방 Github",
         url: "https://github.com/YY-Studios/dev-craft/",
+      },
+    ],
+  },
+  {
+    title: "하나은행 개인뱅킹 UI/UX 운영",
+    subTitle: "금융 서비스의 운영 및 웹 접근성 고도화",
+    info: {
+      period: "2020.11 ~ 2025.03",
+      skills: ["html", "css", "javascript"],
+    },
+    description: [
+      {
+        title: "사용자 중심의 컨텐츠 및 UI 컴포넌트 관리",
+        item: [
+          "상시 이벤트 및 공지사항 등 대고객 컨텐츠의 CMS 등록 및 배포",
+          "공통 UI 컴포넌트 등록 및 유지보수를 통해 일관된 인터페이스 제공과 운영 효율성 향상",
+        ],
+      },
+      {
+        title: "웹 접근성(WA) 품질 인증 및 정보 취약계층 대응",
+        item: [
+          "웹 접근성 품질인증 마크 갱신 및 유지보수 작업을 통해 정보취약계층을 포함한 모든 사용자의 금융 서비스 접근성 보장",
+          "스크린 리더 최적화 및 키보드 접근성 등 표준 가이드라인 준수를 위한 정기적인 UI/UX 품질 검수 수행",
+        ],
+      },
+      {
+        title: "서비스 화면 개선",
+        item: ["모바일 웹 상품몰 UI 개선 작업", "퇴직연금 서비스 UI 개선 작업"],
+      },
+    ],
+    links: [
+      {
+        label: "하나은행 공식 홈페이지",
+        url: "https://www.kebhana.com/",
+      },
+    ],
+  },
+  {
+    title: "하나은행 마이브랜치 UI/UX 운영",
+    subTitle: "비대면 금융 채널 사용자 경험 최적화 및 디바이스 호환성 강화",
+    info: {
+      period: "2021.05 ~ 2025.01",
+      skills: ["html", "css", "javascript"],
+    },
+    description: [
+      {
+        title: "비대면 브랜치 채널 운영 및 최적화",
+        item: [
+          "개인화된 금융 경험을 제공하는 마이브랜치 UI/UX 운영을 통해 사용자 경험 향상",
+          "다양한 디바이스 환경을 고려한 반응형 웹 대응 및 크로스 브라우징 검수를 통한 일관된 사용자 경험 제공",
+        ],
+      },
+    ],
+    links: [
+      {
+        label: "하나은행 마이브랜치 소개",
+        url: "https://www.kebhana.com/cont/mall/mall15/mall1501/index.jsp",
       },
     ],
   },

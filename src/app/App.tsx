@@ -3,6 +3,8 @@ import Hero from "../widgets/Hero/Hero";
 import Career from "../widgets/Career/Career";
 // import Blog from "../widgets/Blog/Blog";
 import Project from "../widgets/Project/Project";
+import { FloatingNav } from "@/widgets/FloatingMenu/FloatingMenu";
+import Footer from "@/widgets/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Skills />
       <Career />
       <Project />
+      <FloatingNav />
+      <Footer />
       {/* <Blog /> */}
     </>
   );
