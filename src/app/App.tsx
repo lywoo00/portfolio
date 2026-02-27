@@ -3,7 +3,7 @@ import Hero from "../widgets/Hero/Hero";
 import Career from "../widgets/Career/Career";
 // import Blog from "../widgets/Blog/Blog";
 import Project from "../widgets/Project/Project";
-import { FloatingNav } from "@/widgets/FloatingMenu/FloatingMenu";
+import { FloatingNav } from "@/widgets/FloatingMenu/FloatingNav";
 import Footer from "@/widgets/Footer/Footer";
 
 function App() {
