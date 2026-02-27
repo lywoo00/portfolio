@@ -71,7 +71,7 @@ Modal.Header = ({ title, subTitle, info, links }: Project) => {
     link.label.toLowerCase().includes("website")
   );
   return (
-    <div className="p-5 md:p-10 border-b border-slate-100 flex justify-between items-start bg-white">
+    <div className="relative p-5 pb-2 md:p-10 md:pb-5 border-b border-slate-100 bg-white">
       <div className="space-y-6 flex-1">
         <div>
           <span className="text-xs md:text-sm font-bold text-blue-600 uppercase tracking-widest block mb-2">
@@ -99,34 +99,32 @@ Modal.Header = ({ title, subTitle, info, links }: Project) => {
             />
           ))}
         </div>
-
-        {/* 퀵 링크 그룹 */}
-        <div className="flex items-center gap-8">
-          {githubLink && (
-            <a
-              href={githubLink.url}
-              target="_blank"
-              className="relative text-sm text-neutral-500ver:text-blue-600 transition-colors duration-300 group"
-            >
-              깃허브 링크
-              <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-blue-600 transition-all duration-300 group-hover:w-full" />
-            </a>
-          )}
-          {siteLink && (
-            <a
-              href={siteLink.url}
-              target="_blank"
-              className="relative text-sm text-neutral-500ver:text-blue-600 transition-colors duration-300 group"
-            >
-              사이트
-              <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-blue-600 transition-all duration-300 group-hover:w-full" />
-            </a>
-          )}
-        </div>
+      </div>
+      <div className="flex items-center gap-8 mt-7">
+        {githubLink && (
+          <a
+            href={githubLink.url}
+            target="_blank"
+            className="relative text-sm text-neutral-500ver:text-blue-600 transition-colors duration-300 group"
+          >
+            깃허브 링크
+            <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-blue-600 transition-all duration-300 group-hover:w-full" />
+          </a>
+        )}
+        {siteLink && (
+          <a
+            href={siteLink.url}
+            target="_blank"
+            className="relative text-sm text-neutral-500ver:text-blue-600 transition-colors duration-300 group"
+          >
+            사이트
+            <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-blue-600 transition-all duration-300 group-hover:w-full" />
+          </a>
+        )}
       </div>
       <button
         onClick={onClose}
-        className="p-2.5 hover:bg-slate-50 rounded-full transition-colors text-slate-300"
+        className="absolute right-5 top-5 p-2.5 text-slate-300"
       >
         <svg
           width="24"
@@ -144,8 +142,8 @@ Modal.Header = ({ title, subTitle, info, links }: Project) => {
 };
 
 Modal.Body = ({ children }: { children: React.ReactNode }) => (
-  <div className="p-5 md:p-10 flex-1 overflow-auto">
-    <div className="max-h-[40vh] md:max-h-[60vh] space-y-8">{children}</div>
+  <div className="max-h-[40vh] md:max-h-[60vh]] p-5 md:p-10 flex-1 overflow-auto">
+    <div className="space-y-8">{children}</div>
   </div>
 );
 

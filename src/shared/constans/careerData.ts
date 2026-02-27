@@ -1,26 +1,26 @@
 export const CAREER_DATA = [
   {
     title: "지아이티",
-    organization: "글로벌 Company, 소프트웨어개발 Cell",
-    subTitle: "리액트 기반 UI 컴포넌트 설계 및 퍼블리싱 (프리랜서)",
+    organization: "차량 진단 웹 UI/UX 구축",
     period: "2025.08 ~ 2025.12",
     description: [
       {
-        item: ["디자인을 리액트 컴포넌트 단위로 구조화하여 재사용성 향상"],
+        item: ["디자인을 리액트 컴포넌트 단위로 구현", "반응형 웹 UI/UX 구축"],
       },
     ],
   },
   {
     title: "하나은행",
-    organization: "글로벌 Company, 소프트웨어개발 Cell",
-    subTitle: "개인뱅킹 및 마이브랜치 UI/UX 운영",
-    period: "2021.11 ~ 2025.04",
+    organization: "개인뱅킹 및 마이브랜치 UI/UX 운영",
+    period: "2020.11 ~ 2025.04",
     description: [
       {
         item: [
           "공통 UI 컴포넌트 등록 및 배포",
           "웹 접근성 미준수 항목 개선 작업",
-          "CMS 내에서 재사용 가능한 마크업 템플릿을 관리하여 컨텐츠 등록 효율성을 높이고 유지보수 시간을 단축",
+          "이벤트, 새소식 등 상시 컨텐츠 cms 등록 및 배포",
+          "모바일웹 상품몰 개선",
+          "퇴직연금 서비스 화면 개선",
         ],
       },
     ],

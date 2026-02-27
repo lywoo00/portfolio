@@ -66,7 +66,7 @@ const Card = ({ project }: CardProps) => {
                 {desc.item.map((bullet, i) => (
                   <li
                     key={i}
-                    className="text-slate-600 text-[15px] leading-relaxed relative pl-2"
+                    className="text-slate-600 text-[15px] leading-relaxed relative"
                   >
                     <span className="absolute left-[-18px] top-[10px] w-1.5 h-1.5 rounded-full bg-slate-200" />
                     {bullet}

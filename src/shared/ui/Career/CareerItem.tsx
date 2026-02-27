@@ -42,11 +42,7 @@ export const CareerItem = ({ item, defaultOpen = false }: CareerItemProps) => {
               {item.title}
             </h3>
 
-            <p className="mt-1 text-sm text-neutral-500">{item.organization}</p>
-
-            <p className="mt-3 text-sm sm:text-[15px] leading-relaxed text-neutral-700">
-              {item.subTitle}
-            </p>
+            <p className="mt-2 text-sm text-neutral-500">{item.organization}</p>
           </div>
 
           {/* 토글 버튼 */}

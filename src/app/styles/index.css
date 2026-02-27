@@ -44,9 +44,14 @@
   animation: fadeUp 0.8s ease forwards;
 }
 
-.section {
-  @apply w-full mx-auto py-10 md:py-16 px-5 md:px-20 lg:px-40;
+#root {
+  @apply md:px-10 lg:px-20;
 }
+.section {
+  @apply max-w-5xl mx-auto py-20 md:py-25 px-5 md:py-10 md:rounded-2xl;
+}
+.section:nth-child(even) {
+  @apply bg-gray-50; }
 
 .sction-title {
   @apply text-2xl font-bold mb-6 ;

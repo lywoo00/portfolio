@@ -1,6 +1,5 @@
 import Card from "./Card";
 import projectData from "../../constans/projectData";
-import { div } from "framer-motion/client";
 
 const CardList = () => {
   return (

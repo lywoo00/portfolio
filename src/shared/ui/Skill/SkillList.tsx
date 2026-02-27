@@ -3,11 +3,19 @@ import SkillBadge from "./SkillBadge";
 export const SKILL_DATA = [
   { id: "react", category: "frontend" },
   { id: "typescript", category: "frontend" },
-  { id: "nextjs", category: "frontend" },
+  { id: "next.js", category: "frontend" },
   { id: "javascript", category: "frontend" },
-  { id: "tailwind", category: "frontend" },
+  { id: "html", category: "frontend" },
+  { id: "css", category: "frontend" },
+  { id: "zustand", category: "library" },
+  { id: "tailwind", category: "library" },
+  { id: "tanstack-query", category: "library" },
+  { id: "scss", category: "library" },
   { id: "git", category: "tool" },
+  { id: "github", category: "tool" },
+  { id: "vite", category: "tool" },
   { id: "supabase", category: "tool" },
+  { id: "firebase", category: "tool" },
   { id: "figma", category: "design" },
 ];
 
