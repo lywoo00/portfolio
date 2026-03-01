@@ -10,8 +10,11 @@ const data: Project[] = [
         "next.js",
         "typescript",
         "tailwind",
+        "tanstack-query",
+        "zustand",
         "supabase",
         "n8n",
+        "git",
         "github",
         "figma",
       ],
@@ -46,6 +49,7 @@ const data: Project[] = [
         item: [
           "GitHub Milestones와 Issues를 활용해 업무 진행도를 시각화하고, 개발 우선순위를 유연하게 조정하며 데드라인 준수",
         ],
+        images: ["/images/devcraft02.png"],
       },
       {
         title: "개발 환경 구축 및 CI 자동화",
@@ -72,7 +76,16 @@ const data: Project[] = [
     subTitle: "자동차 진단 솔루션 반응형 웹 UI/UX 구축",
     info: {
       period: "2025.08 ~ 2025.12",
-      skills: ["html", "css", "javascript", "react", "scss", "github", "figma"],
+      skills: [
+        "html",
+        "css",
+        "javascript",
+        "react",
+        "scss",
+        "git",
+        "github",
+        "figma",
+      ],
     },
     description: [
       {
