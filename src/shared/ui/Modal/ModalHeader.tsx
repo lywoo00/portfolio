@@ -17,7 +17,7 @@ export const ModalHeader = ({ title, subTitle, info, links }: Project) => {
     period:
       "text-xs md:text-sm font-bold text-blue-600 uppercase tracking-widest block mb-2",
     title: "text-xl md:text-3xl font-black text-slate-900 leading-tight",
-    subTitle: "text-sm md:text-xl text-slate-500 font-medium mt-2",
+    subTitle: "text-sm md:text-lg text-slate-500 font-medium mt-2",
     link: "relative text-sm text-neutral-500 hover:text-blue-600 transition-colors duration-300 group",
     linkUnderline:
       "absolute left-0 -bottom-1 w-0 h-[1px] bg-blue-600 transition-all duration-300 group-hover:w-full",
