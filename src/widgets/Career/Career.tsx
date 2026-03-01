@@ -8,7 +8,7 @@ const Career = () => {
       {/* 타이틀 */}
       <Title
         title="업무 경험"
-        description="웹표준 · 웹 접근성 · UI/UX 개선 · 프론트엔드 개발 경험"
+        description="웹표준 · 웹 접근성 · UI/UX 운영 및 개선 업무를 담당했습니다."
       />
 
       {/* 리스트 */}

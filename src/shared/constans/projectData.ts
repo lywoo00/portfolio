@@ -13,6 +13,7 @@ const data: Project[] = [
         "supabase",
         "n8n",
         "github",
+        "figma",
       ],
     },
     description: [
@@ -48,7 +49,7 @@ const data: Project[] = [
       {
         title: "개발 환경 구축 및 CI 자동화",
         item: [
-          "ESLint, Prettier와 Husky를 결합하여 코드 스타일을 강제하고, 커밋 전 자동 검증(lint-staged)을 통해 일관된 코드 품질 유지",
+          "ESLint, Prettier와 Husky를 사용하여 코드 스타일을 강제하고, 커밋 전 자동 검증을 통해 일관된 코드 품질 유지",
           "브랜치명 및 커밋 메시지 규칙(commitlint)을 적용하여 Git 워크플로우의 일관성 유지",
           "GitHub Actions 기반의 CI 파이프라인을 구축하여 PR 생성 시 빌드 안정성 및 타입 검사를 자동으로 수행하도록 설정",
         ],

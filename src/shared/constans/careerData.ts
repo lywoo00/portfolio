@@ -1,11 +1,11 @@
 export const CAREER_DATA = [
   {
     title: "지아이티",
-    organization: "차량 진단 웹 UI/UX 구축",
+    organization: "차량 진단 솔루션 UI/UX 구축",
     period: "2025.08 ~ 2025.12",
     description: [
       {
-        item: ["디자인을 리액트 컴포넌트 단위로 구현", "반응형 웹 UI/UX 구축"],
+        item: ["디자인을 리액트 컴포넌트 단위로 구현", "반응형 웹 UI/UX 작업"],
       },
     ],
   },
