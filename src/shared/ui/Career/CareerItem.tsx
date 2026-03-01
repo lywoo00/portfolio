@@ -70,7 +70,7 @@ export const CareerItem = ({ item, defaultOpen = false }: CareerItemProps) => {
             aria-expanded={open}
             className={styles.toggleBtn(open)}
           >
-            <span>{open ? "주요 업무 닫기" : "주요 업무 보기"}</span>
+            <span>{open ? "업무 내용 닫기" : "업무 내용 보기"}</span>
             <svg
               className={cn(
                 "h-4 w-4 transition-transform duration-300",
