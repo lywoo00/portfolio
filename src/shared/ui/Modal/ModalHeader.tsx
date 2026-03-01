@@ -4,10 +4,10 @@ import type { Project } from "@/shared/types/project";
 
 export const ModalHeader = ({ title, subTitle, info, links }: Project) => {
   const { onClose } = useModal();
-  const githubLink = links.find((link) =>
+  const githubLink = links?.find((link) =>
     link.label.toLowerCase().includes("github")
   );
-  const siteLink = links.find((link) =>
+  const siteLink = links?.find((link) =>
     link.label.toLowerCase().includes("website")
   );
 

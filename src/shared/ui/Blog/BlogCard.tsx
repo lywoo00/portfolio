@@ -7,7 +7,6 @@ interface BlogCardProps {
 export default function BlogCard({ blog }: BlogCardProps) {
   return (
     <article className="h-full rounded-[28px] border border-zinc-200 bg-white p-6 md:p-7 flex flex-col">
-      {/* 상단 메타 */}
       <div className="flex items-center justify-between gap-4">
         <div className="flex items-center gap-3 text-sm text-zinc-400">
           <span className="h-2.5 w-2.5 rounded-full bg-green-400 shrink-0" />

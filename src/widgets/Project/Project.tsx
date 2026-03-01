@@ -4,8 +4,8 @@ const Project = () => {
   return (
     <section id="projects" className="section">
       <Title
-        title="프로젝트"
-        description="실무 · 운영 · 퍼블리싱 · 프론트엔드 개발 경험"
+        title="프로젝트 상세"
+        description="주요 업무 내용 및 프로젝트 상세 내용입니다."
       />
       <CardList />
     </section>

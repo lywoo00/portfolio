@@ -25,6 +25,7 @@ const data: Project[] = [
           "전체 파일에서 import 패턴을 추출해 변경 파일 기준 의존성 맵 생성. 영향 범위를 카운트해 주의 파일을 분리하고 HTML 리포트로 시각화",
           "모호한 지시 대신 문서 종류 · 말투 · 글 구조 · 독자 타겟을 필터로 분리해 입력을 구조화. 옵션별 통과/실패 예시와 자기검증 체크리스트를 포함해 결과 편차를 줄이고 일관성 향상",
         ],
+        images: ["/images/devcraft01.png"],
       },
       {
         title: "컴파운드 컴포넌트 패턴 모달 구현",
@@ -67,11 +68,34 @@ const data: Project[] = [
     ],
   },
   {
+    title: "지아이티",
+    subTitle: "자동차 진단 솔루션 반응형 웹 UI/UX 구축",
+    info: {
+      period: "2025.08 ~ 2025.12",
+      skills: ["html", "css", "javascript", "react", "scss", "github", "figma"],
+    },
+    description: [
+      {
+        title: "공통 컴포넌트 구현",
+        item: [
+          "React 기반의 재사용 가능한 공통 컴포넌트 구현 작업",
+          "공통 UI 컴포넌트 등록 및 유지보수를 통해 일관된 인터페이스 제공과 운영 효율성 향상",
+        ],
+      },
+      {
+        title: "반응형 웹 레이아웃 구현",
+        item: [
+          "현장 진단 장비 및 모바일, 태블릿 등 다양한 해상도에 대응하는 유연한 반응형 인터페이스 구축",
+        ],
+      },
+    ],
+  },
+  {
     title: "하나은행 개인뱅킹 UI/UX 운영",
     subTitle: "금융 서비스의 운영 및 웹 접근성 고도화",
     info: {
       period: "2020.11 ~ 2025.03",
-      skills: ["html", "css", "javascript"],
+      skills: ["html", "css", "javascript", "figma"],
     },
     description: [
       {
@@ -95,7 +119,7 @@ const data: Project[] = [
     ],
     links: [
       {
-        label: "하나은행 공식 홈페이지",
+        label: "하나은행 website",
         url: "https://www.kebhana.com/",
       },
     ],

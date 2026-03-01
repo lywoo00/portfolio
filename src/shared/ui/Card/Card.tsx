@@ -81,6 +81,9 @@ const Card = ({ project }: CardProps) => {
                   </li>
                 ))}
               </ul>
+              <div className="mt-3">
+                <img src={desc.images?.[0]} alt="" />
+              </div>
             </div>
           ))}
         </Modal.Body>

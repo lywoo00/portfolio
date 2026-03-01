@@ -25,6 +25,19 @@ export const CAREER_DATA = [
       },
     ],
   },
+  {
+    title: "TRAVUT",
+    organization: "외국인 여행 가이드 플랫폼 반응형 웹 UI/UX 제작",
+    period: "2021.11 ~ 2022.03",
+    description: [
+      {
+        item: [
+          "디자인 시안 기반의 반응형 웹 페이지 퍼블리싱",
+          "크로스 브라우징 대응 및 웹 접근성",
+        ],
+      },
+    ],
+  },
 ] as const;
 
 export type CareerDataItem = (typeof CAREER_DATA)[number];

@@ -1,6 +1,7 @@
 export interface ProjectDescription {
   title: string;
   item: string[];
+  images?: string[];
 }
 export interface ProjectInfo {
   period: string;
@@ -17,5 +18,5 @@ export interface Project {
   subTitle: string;
   info: ProjectInfo;
   description?: ProjectDescription[];
-  links: ProjectLink[];
+  links?: ProjectLink[];
 }

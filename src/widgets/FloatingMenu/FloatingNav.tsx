@@ -3,7 +3,7 @@ import { cn } from "@/shared/lib/utils";
 const MENU_ITEMS = [
   { id: "skills", label: "기술 스택" },
   { id: "career", label: "업무 경험" },
-  { id: "projects", label: "프로젝트" },
+  { id: "projects", label: "프로젝트 상세" },
 ];
 
 export const FloatingNav = () => {
