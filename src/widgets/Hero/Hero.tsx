@@ -1,8 +1,4 @@
-import { useState } from "react";
-
 const Hero = () => {
-  const [hovered, setHovered] = useState(false);
-
   return (
     <section
       id="hero"
@@ -11,11 +7,7 @@ const Hero = () => {
       <div className="max-w-2xl mx-auto flex flex-col items-center justify-center">
         <p className="text-lg text-blue-600 font-bold mb-1">안녕하세요</p>
 
-        <h1
-          className="text-3xl md:text-6xl font-semibold tracking-tight mb-3 transition-all duration-500"
-          onMouseEnter={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
-        >
+        <h1 className="text-3xl md:text-6xl font-semibold tracking-tight mb-3 transition-all duration-500">
           <span>이영우</span>
           <span>입니다.</span>
         </h1>
