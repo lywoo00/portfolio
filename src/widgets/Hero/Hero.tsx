@@ -7,7 +7,8 @@ const Hero = () => {
     container: "max-w-2xl mx-auto flex flex-col items-center justify-center",
     title:
       "text-3xl md:text-6xl font-semibold tracking-tight mb-3 transition-all duration-500",
-    description: "text-base md:text-lg text-neutral-500 leading-relaxed mb-12",
+    description:
+      "text-center text-base md:text-lg text-neutral-500 leading-relaxed mb-12",
 
     githubBtn: cn(
       baseBtn,
@@ -30,9 +31,9 @@ const Hero = () => {
         </h1>
 
         <p className={styles.description}>
-          퍼블리셔로 시작해 프론트엔드까지,
+          웹 표준과 웹 접근성을 기반으로,
           <br />
-          사용자 경험과 구조를 함께 설계합니다.
+          프론트엔드 개발까지 수행하는 퍼블리셔입니다.
         </p>
 
         <div className="flex gap-4">
