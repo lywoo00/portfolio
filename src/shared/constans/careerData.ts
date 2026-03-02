@@ -12,7 +12,7 @@ export const CAREER_DATA = [
   {
     title: "하나은행",
     organization: "개인뱅킹 및 마이브랜치 UI/UX 운영",
-    period: "2020.11 ~ 2025.04",
+    period: "2022.11 ~ 2025.04",
     description: [
       {
         item: [

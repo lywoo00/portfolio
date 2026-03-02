@@ -107,7 +107,7 @@ const data: Project[] = [
     title: "하나은행 개인뱅킹 UI/UX 운영",
     subTitle: "금융 서비스의 운영 및 웹 접근성 고도화",
     info: {
-      period: "2020.11 ~ 2025.03",
+      period: "2022.11 ~ 2025.04",
       skills: ["html", "css", "javascript", "figma"],
     },
     description: [
@@ -141,7 +141,7 @@ const data: Project[] = [
     title: "하나은행 마이브랜치 UI/UX 운영",
     subTitle: "비대면 금융 채널 사용자 경험 최적화 및 디바이스 호환성 강화",
     info: {
-      period: "2021.05 ~ 2025.01",
+      period: "2021.04 ~ 2021.08",
       skills: ["html", "css", "javascript"],
     },
     description: [
