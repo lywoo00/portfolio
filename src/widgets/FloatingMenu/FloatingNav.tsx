@@ -22,7 +22,7 @@ export const FloatingNav = () => {
   const styles = {
     /* PC */
     wrapper:
-      "fixed bottom-6 right-5 md:bottom-10 md:left-1/2 md:-translate-x-1/2 z-10",
+      "fixed bottom-6 right-5 md:right-auto md:bottom-10 md:left-1/2 md:-translate-x-1/2 z-10",
     desktopNav: cn(
       "hidden md:flex items-center gap-1 p-2 bg-white/80 backdrop-blur-md",
       "border border-slate-100 rounded-full shadow-lg shadow-slate-200/50"
