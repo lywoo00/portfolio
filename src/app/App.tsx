@@ -13,8 +13,8 @@ function App() {
       <Skills />
       <Career />
       <Project />
-      <FloatingNav />
       <Footer />
+      <FloatingNav />
       {/* <Blog /> */}
     </>
   );

@@ -18,7 +18,8 @@ const Card = ({ project }: CardProps) => {
     ),
     period: "text-xs font-bold text-blue-600 uppercase tracking-widest mb-1",
     title: "text-xl font-black text-slate-900 text-left",
-    subTitle: "mt-2 text-left text-neutral-500 font-medium leading-relaxed",
+    subTitle:
+      "text-sm md:text-base mt-2 text-left text-neutral-500 font-medium leading-relaxed",
     detailBtn: "py-3 text-sm text-neutral-500 hover:underline cursor-pointer",
 
     skillFooter: "w-full pt-5 border-t border-slate-200",

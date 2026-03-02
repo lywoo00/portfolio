@@ -25,10 +25,7 @@ const Hero = () => {
       <div className={styles.container}>
         <p className="text-lg text-blue-600 font-bold mb-1">안녕하세요</p>
 
-        <h1 className={styles.title}>
-          <span>이영우</span>
-          <span>입니다.</span>
-        </h1>
+        <h1 className={styles.title}>이영우입니다.</h1>
 
         <p className={styles.description}>
           웹 표준과 웹 접근성을 기반으로,
