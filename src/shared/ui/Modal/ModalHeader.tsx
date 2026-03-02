@@ -4,12 +4,6 @@ import type { Project } from "@/shared/types/project";
 
 export const ModalHeader = ({ title, subTitle, info, links }: Project) => {
   const { onClose } = useModal();
-  const githubLink = links?.find((link) =>
-    link.label.toLowerCase().includes("github")
-  );
-  const siteLink = links?.find((link) =>
-    link.label.toLowerCase().includes("website")
-  );
 
   const styles = {
     header:
@@ -40,7 +34,7 @@ export const ModalHeader = ({ title, subTitle, info, links }: Project) => {
         </div>
       </div>
       <div className="flex items-center gap-8 mt-7">
-        {[githubLink, siteLink].map(
+        {links?.map(
           (link, i) =>
             link && (
               <a
@@ -51,7 +45,7 @@ export const ModalHeader = ({ title, subTitle, info, links }: Project) => {
               >
                 {link.label.toLowerCase().includes("github")
                   ? "깃허브 링크"
-                  : "사이트"}
+                  : "웹 사이트"}
                 <span className={styles.linkUnderline} />
               </a>
             )

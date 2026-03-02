@@ -62,11 +62,11 @@ const data: Project[] = [
     ],
     links: [
       {
-        label: "개발자 공방 website",
+        label: "website",
         url: "https://dev-craft-lake.vercel.app/",
       },
       {
-        label: "개발자 공방 Github",
+        label: "github",
         url: "https://github.com/YY-Studios/dev-craft/",
       },
     ],
@@ -132,7 +132,7 @@ const data: Project[] = [
     ],
     links: [
       {
-        label: "하나은행 website",
+        label: "website",
         url: "https://www.kebhana.com/",
       },
     ],
@@ -151,12 +151,6 @@ const data: Project[] = [
           "개인화된 금융 경험을 제공하는 마이브랜치 UI/UX 운영을 통해 사용자 경험 향상",
           "다양한 디바이스 환경을 고려한 반응형 웹 대응 및 크로스 브라우징 검수를 통한 일관된 사용자 경험 제공",
         ],
-      },
-    ],
-    links: [
-      {
-        label: "하나은행 마이브랜치 소개",
-        url: "https://www.kebhana.com/cont/mall/mall15/mall1501/index.jsp",
       },
     ],
   },
