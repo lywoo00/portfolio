@@ -1,7 +1,7 @@
 import type { Project } from "@/shared/types/project";
 const data: Project[] = [
   {
-    title: `개발자 공방`,
+    title: `개발자 공방(개인 프로젝트)`,
     subTitle: `코드 영향도 분석 및 문서 작성 자동화 서비스 개발`,
     info: {
       period: "2026.01 ~ 2026.02",
