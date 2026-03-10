@@ -31,6 +31,21 @@ const data: Project[] = [
         images: ["/images/devcraft01.png"],
       },
       {
+        title: "블로그 피드 및 개인 블로그 목록 구현",
+        item: [
+          "API 라우트를 통한 데이터 패칭",
+          "피드 목록에 최신순·인기순 정렬 및 검색 기능을 구현하고, TanStack Query를 활용해 데이터 캐싱 적용",
+          "블로그 상세 페이지의 좋아요 및 게시글 삭제 기능 구현 시, 낙관적 업데이트(Optimistic Update)를 적용하여 서버 응답 전 즉각적인 UI 반응성 확보",
+        ],
+      },
+      {
+        title: "사용자 활동 요약 대시보드 구현",
+        item: [
+          "사용자의 기술 스택 빈도, 요일별 활동량 데이터를 집계하여 직관적인 대시보드 시각화",
+          "좋아요 데이터를 기반으로 인기 글 TOP 3를 추출하여 대시보드에 정렬",
+        ],
+      },
+      {
         title: "컴파운드 컴포넌트 패턴 모달 구현",
         item: [
           "React Context API로 모달 상태를 전역 관리하고, createPortal로 z-index 문제 해결. 컴파운드 컴포넌트 패턴으로 Modal.Header · Modal.Body · Modal.Footer를 조립 방식으로 구성해 다양한 형태에 대응",

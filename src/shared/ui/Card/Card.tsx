@@ -29,7 +29,7 @@ const Card = ({ project }: CardProps) => {
     modalHeading:
       "text-lg font-bold text-slate-900 mb-5 flex items-center gap-3",
     modalList:
-      "space-y-4 pl-4 group-hover/item:border-blue-100 transition-colors",
+      "space-y-2 pl-4 group-hover/item:border-blue-100 transition-colors",
     modalItem: "text-slate-600 text-[15px] leading-relaxed relative",
     modalBullet:
       "absolute left-[-18px] top-[10px] w-1.5 h-1.5 rounded-full bg-slate-200",
