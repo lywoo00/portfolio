@@ -3,6 +3,7 @@ import { cn } from "@/shared/lib/utils";
 import SkillBadge from "../Skill/SkillBadge";
 import type { Project } from "../../../shared/types/project";
 import Modal from "@/shared/ui/Modal";
+import { p } from "framer-motion/client";
 
 interface CardProps {
   project: Project;
@@ -104,7 +105,12 @@ const Card = ({ project }: CardProps) => {
                 <>
                   {desc.images.pc && (
                     <div className={styles.deviceSection}>
-                      <p className={styles.deviceTitle}>PC</p>
+                      {project.title === "지아이티" && (
+                        <p className="text-blue-500">
+                          * 프로젝트 일부 화면입니다.
+                        </p>
+                      )}
+                      <p className={styles.deviceTitle}>PC </p>
 
                       <div className={styles.imageGrid}>
                         {desc.images.pc.map((img, i) => (
