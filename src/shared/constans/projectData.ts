@@ -28,7 +28,9 @@ const data: Project[] = [
           "전체 파일에서 import 패턴을 추출해 변경 파일 기준 의존성 맵 생성. 영향 범위를 카운트해 주의 파일을 분리하고 HTML 리포트로 시각화",
           "모호한 지시 대신 문서 종류 · 말투 · 글 구조 · 독자 타겟을 필터로 분리해 입력을 구조화. 옵션별 통과/실패 예시와 자기검증 체크리스트를 포함해 결과 편차를 줄이고 일관성 향상",
         ],
-        images: ["/images/devcraft01.png"],
+        images: {
+          pc: ["/images/devcraft01.png"],
+        },
       },
       {
         title: "블로그 피드 및 개인 블로그 목록 구현",
@@ -64,7 +66,9 @@ const data: Project[] = [
         item: [
           "GitHub Milestones와 Issues를 활용해 업무 진행도를 시각화하고, 개발 우선순위를 유연하게 조정하며 데드라인 준수",
         ],
-        images: ["/images/devcraft02.png"],
+        images: {
+          pc: ["/images/devcraft02.png"],
+        },
       },
       {
         title: "개발 환경 구축 및 CI 자동화",
@@ -115,6 +119,12 @@ const data: Project[] = [
         item: [
           "현장 진단 장비 및 모바일, 태블릿 등 다양한 해상도에 대응하는 유연한 반응형 인터페이스 구축",
         ],
+
+        images: {
+          pc: ["/images/git_01_pc.png", "/images/git_02_pc.png"],
+          tablet: ["/images/git_01_ta.png", "/images/git_02_ta.png"],
+          mobile: ["/images/git_01_mo.png"],
+        },
       },
     ],
   },

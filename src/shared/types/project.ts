@@ -1,7 +1,11 @@
 export interface ProjectDescription {
   title: string;
   item: string[];
-  images?: string[];
+  images?: {
+    pc?: string[];
+    tablet?: string[];
+    mobile?: string[];
+  };
 }
 export interface ProjectInfo {
   period: string;

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { cn } from "@/shared/lib/utils"; // shared 레이어의 유틸리티 활용
+import { cn } from "@/shared/lib/utils";
 import SkillBadge from "../Skill/SkillBadge";
 import type { Project } from "../../../shared/types/project";
 import Modal from "@/shared/ui/Modal";
@@ -33,6 +33,23 @@ const Card = ({ project }: CardProps) => {
     modalItem: "text-slate-600 text-[15px] leading-relaxed relative",
     modalBullet:
       "absolute left-[-18px] top-[10px] w-1.5 h-1.5 rounded-full bg-slate-200",
+
+    deviceSection: "mt-6",
+    deviceTitle:
+      "text-base font-bold text-slate-500 uppercase tracking-wider mb-3",
+
+    imageGrid: "grid grid-cols-1 md:grid-cols-2 gap-6",
+
+    imageFrame:
+      "flex flex-col border border-slate-200 rounded-xl overflow-hidden bg-white shadow-sm",
+    imageHeader:
+      "bg-slate-50 px-3 py-2 border-b border-slate-200 flex items-center gap-1.5",
+
+    macDot: "w-2.5 h-2.5 rounded-full bg-slate-300",
+
+    scrollBox: "max-h-[400px] overflow-y-auto bg-slate-50",
+
+    image: "w-full h-auto object-top block",
   };
 
   return (
@@ -82,9 +99,88 @@ const Card = ({ project }: CardProps) => {
                   </li>
                 ))}
               </ul>
-              <div className="mt-3">
-                <img src={desc.images?.[0]} alt="" />
-              </div>
+
+              {desc.images && (
+                <>
+                  {desc.images.pc && (
+                    <div className={styles.deviceSection}>
+                      <p className={styles.deviceTitle}>PC</p>
+
+                      <div className={styles.imageGrid}>
+                        {desc.images.pc.map((img, i) => (
+                          <div key={i} className={styles.imageFrame}>
+                            <div className={styles.imageHeader}>
+                              <span className={styles.macDot} />
+                              <span className={styles.macDot} />
+                              <span className={styles.macDot} />
+                            </div>
+
+                            <div className={styles.scrollBox}>
+                              <img
+                                src={img}
+                                alt={`pc-${i}`}
+                                className={styles.image}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {desc.images.tablet && (
+                    <div className={styles.deviceSection}>
+                      <p className={styles.deviceTitle}>Tablet</p>
+
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {desc.images.tablet.map((img, i) => (
+                          <div key={i} className={styles.imageFrame}>
+                            <div className={styles.imageHeader}>
+                              <span className={styles.macDot} />
+                              <span className={styles.macDot} />
+                              <span className={styles.macDot} />
+                            </div>
+
+                            <div className={styles.scrollBox}>
+                              <img
+                                src={img}
+                                alt={`tablet-${i}`}
+                                className={styles.image}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {desc.images.mobile && (
+                    <div className={styles.deviceSection}>
+                      <p className={styles.deviceTitle}>Mobile</p>
+
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        {desc.images.mobile.map((img, i) => (
+                          <div key={i} className={styles.imageFrame}>
+                            <div className={styles.imageHeader}>
+                              <span className={styles.macDot} />
+                              <span className={styles.macDot} />
+                              <span className={styles.macDot} />
+                            </div>
+
+                            <div className={styles.scrollBox}>
+                              <img
+                                src={img}
+                                alt={`mobile-${i}`}
+                                className={styles.image}
+                              />
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </>
+              )}
             </div>
           ))}
         </Modal.Body>

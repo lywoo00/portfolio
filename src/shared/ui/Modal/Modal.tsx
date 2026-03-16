@@ -35,7 +35,7 @@ export const Modal = ({ isOpen, onClose, children }: ModalProps) => {
               animate={{ opacity: 1, scale: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.95, y: 20 }}
               onClick={(e) => e.stopPropagation()}
-              className="bg-white w-full max-w-2xl overflow-y-auto rounded-3xl shadow-2xl flex flex-col"
+              className="bg-white w-full max-w-7xl overflow-y-auto rounded-3xl shadow-2xl flex flex-col"
             >
               {children}
             </motion.div>
