@@ -3,7 +3,6 @@ import { cn } from "@/shared/lib/utils";
 import SkillBadge from "../Skill/SkillBadge";
 import type { Project } from "../../../shared/types/project";
 import Modal from "@/shared/ui/Modal";
-import { p } from "framer-motion/client";
 
 interface CardProps {
   project: Project;
