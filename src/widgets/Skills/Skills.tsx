@@ -5,7 +5,7 @@ import Title from "@/shared/ui/Title/Title";
 
 const CATEGORIES = [
   { id: "all", label: "전체" },
-  { id: "frontend", label: "퍼블리싱" },
+  { id: "publishing", label: "퍼블리싱" },
   { id: "library", label: "라이브러리" },
   { id: "tool", label: "도구" },
   { id: "design", label: "디자인" },

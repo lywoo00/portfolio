@@ -1,12 +1,12 @@
 import SkillBadge from "./SkillBadge";
 
 export const SKILL_DATA = [
-  { id: "react", category: "frontend" },
-  { id: "typescript", category: "frontend" },
-  { id: "next.js", category: "frontend" },
-  { id: "javascript", category: "frontend" },
-  { id: "html", category: "frontend" },
-  { id: "css", category: "frontend" },
+  { id: "react", category: "publishing" },
+  { id: "typescript", category: "publishing" },
+  { id: "next.js", category: "publishing" },
+  { id: "javascript", category: "publishing" },
+  { id: "html", category: "publishing" },
+  { id: "css", category: "publishing" },
   { id: "zustand", category: "library" },
   { id: "tailwind", category: "library" },
   { id: "tanstack-query", category: "library" },
