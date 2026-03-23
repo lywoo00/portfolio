@@ -30,7 +30,7 @@ const Hero = () => {
         <p className={styles.description}>
           웹 표준과 웹 접근성을 기반으로,
           <br />
-          프론트엔드 개발까지 수행하는 퍼블리셔입니다.
+          사용자 경형을 구현하는 퍼블리셔입니다.
         </p>
 
         <div className="flex gap-4">
